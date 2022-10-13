@@ -1,24 +1,237 @@
 .tagline {
-  /* width: 608.8525390625px;
-  left: 135px;
-  top: 211px;
-  border-radius: nullpx; */
   font-weight: 700;
   font-size: 54px;
 }
 
-/* .fish {
-  width: 200px;
-  height: 300px;
-} */
+.header {
+  margin-bottom: 170px;
+}
 
 .phone {
   width: 500px;
   height: 487px;
+  margin-left: -100px;
+}
+
+.fish {
+  width: 300px;
+  height: 287px;
+}
+
+.display-left {
+  padding-left: 100px !important;
+}
+
+.display-right {
+  background-image: url('../public/bg-right.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-position: center;
+  padding-right: 100px;
+}
+
+/* .row .header {
+  margin-left: unset !important;
+} */
+
+.form {
+  background-image: url('../public/image/full-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 45px 70px;
+}
+
+.btn-orange {
+  background-color: #f2572e !important;
+}
+
+/* Frame67 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+p {
+  margin: 0;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-col-hcenter-vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.frame-67 {
+  width: 1350px;
+  height: 410px;
+}
+
+.services {
+  padding: 79px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(231, 234, 236, 1);
+  box-shadow: 25px 25px 100px rgba(166, 161, 157, 0.1);
+  width: 430px;
+  height: 100%;
+}
+
+.component-1 {
+  width: 93px;
+  height: 85px;
+  margin-bottom: 24px;
+}
+
+.txt-175 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.38px;
+  color: rgba(13, 13, 13, 1);
+  word-wrap: break-word;
+  margin-bottom: 24px;
+}
+
+.txt-747 {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.29px;
+  color: rgba(128, 125, 125, 1);
+  text-align: center;
+  width: 318px;
+  word-wrap: break-word;
+}
+
+.services-1 {
+  padding: 79px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid rgba(231, 234, 236, 1);
+  width: 430px;
+  height: 100%;
+}
+
+.component-1 {
+  width: 93px;
+  height: 85px;
+  margin-bottom: 24px;
+}
+
+.txt-175 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.38px;
+  color: rgba(13, 13, 13, 1);
+  word-wrap: break-word;
+  margin-bottom: 24px;
+}
+
+.txt-747 {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.29px;
+  color: rgba(128, 125, 125, 1);
+  text-align: center;
+  width: 318px;
+  word-wrap: break-word;
+}
+
+.services-2 {
+  padding: 79px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid rgba(231, 234, 236, 1);
+  width: 430px;
+  height: 100%;
+}
+
+.component-1 {
+  width: 93px;
+  height: 85px;
+  margin-bottom: 24px;
+}
+
+.txt-172 {
+  font-size: 24px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0.38px;
+  color: rgba(13, 13, 13, 1);
+  word-wrap: break-word;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+.txt-747 {
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.29px;
+  color: rgba(128, 125, 125, 1);
+  text-align: center;
+  width: 318px;
+  word-wrap: break-word;
 }
 
 @media only screen and (max-width: 1200px) {
+  .header .display-left {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
   .button {
-    max-width: 60%;
+    max-width: 50%;
+  }
+
+  .display-left {
+    padding: 0 !important;
+  }
+
+  .display-right {
+    background-image: url('../public/bg-right.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-right: -200px !important;
+  }
+
+  .fish {
+    margin-right: -100px;
+    width: 150px;
+    height: 187px;
+  }
+
+  .phone {
+    width: 250px;
+    height: 287px;
+    margin-left: 50px;
+  }
+
+  .tagline {
+    font-weight: 600;
+    font-size: 50px;
   }
 }
