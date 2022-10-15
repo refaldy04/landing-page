@@ -120,7 +120,7 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Container className="status-pengiriman" fluid>
+      <Container className="status-pengiriman ovflw-hidden" fluid>
         <Row>
           <Col md="6" className="d-flex justify-content-center align-items-center gap-2 dis-left">
             <img src="./phone3.png" alt="not found" className="phone3" />
@@ -148,7 +148,8 @@ function App() {
             <img src="./phone4.png" alt="not found" className="phone2" />
           </Col>
         </Row>
-      </Container>
+      </Container>{' '}
+      */}
       <Container>
         <Row>
           <Col xl="12" className="d-flex flex-column align-items-center mt-5">
