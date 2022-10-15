@@ -148,8 +148,7 @@ function App() {
             <img src="./phone4.png" alt="not found" className="phone2" />
           </Col>
         </Row>
-      </Container>{' '}
-      */}
+      </Container>
       <Container>
         <Row>
           <Col xl="12" className="d-flex flex-column align-items-center mt-5">
